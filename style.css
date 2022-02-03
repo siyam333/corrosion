@@ -27,3 +27,11 @@ body>div {
 h2 {
     margin-bottom: 1em;
 }
+.navbar{
+  width: 100%;
+  text-align: center;
+}
+.navbar{
+  float: none;
+  display: inline-block;
+}
