@@ -1,6 +1,28 @@
-*,*::after,*::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    margin-inline: 5vw;
+}
+
+#mechanism img {
+  width: 100%;
+  max-width: 90vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body>div {
+    margin-bottom: 5em;
+}
+
+h2 {
+    margin-bottom: 2em;
 }
