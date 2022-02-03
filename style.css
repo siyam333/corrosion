@@ -28,10 +28,11 @@ h2,h3 {
     margin-block: 1em;
 }
 .flexbox{
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
-.flexbox{
-  margin: 10px;
+.flexbox>div{
+  margin: 5px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
