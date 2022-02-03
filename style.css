@@ -11,12 +11,13 @@ body {
     margin-inline: 5vw;
 }
 
-#mechanism img {
+img {
   width: 100%;
   max-width: 90vw;
   height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: 1em;
 }
 
 body>div {
@@ -24,5 +25,5 @@ body>div {
 }
 
 h2 {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
