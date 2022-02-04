@@ -9,6 +9,7 @@
 
 :root {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 main {
@@ -40,4 +41,24 @@ h2,h3 {
   margin: 5px;
   padding: 20px;
   font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav>a {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.nav:not(:hover) ul, .nav:not(:hover) ul {
+  transform: scale(0);
+}
+
+.nav ul {
+  transform: scale(1);
+  transition: transform 0.4s linear;
+  list-style-type: none;
 }
